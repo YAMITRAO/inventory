@@ -1,0 +1,159 @@
+.InventoryDetailsContainer{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid red; */
+  margin:20px 40px 0px 40px;
+  border-radius: 30px;
+  /* background-color: #ffffff; */
+}
+
+@media (min-width : 680px){
+  .InventoryDetailsContainer{
+    flex-direction: row;
+  }
+}
+.onlyDetails, .detailsChnage{
+  font-family: monospace;
+  font-weight: bold;
+  padding:20px 10px 25px 10px;
+    width:300px;
+    height:7vw;
+    
+    /* border:2px solid green; */
+    border-radius: 30px;
+    margin: 2%;
+    font-size: 3vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.onlyDetails{
+  background-color: #8ecae6;
+}
+.detailsChnage{
+  border: 3px solid rgba(173, 124, 23, 0.804);
+  border-radius: 20px 10px 20px 10px;
+
+}
+ .filterResult, .filterChange{
+    padding:15px 10px 30px 10px;
+    width:300px;
+    height:7vw;
+    
+    /* border:2px solid green; */
+    border-radius: 30px;
+    margin: 2%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    outline: none;
+}
+.filterResult{
+  background-color: #8ecae6;
+}
+.filterChange{
+  border: 3px solid rgba(20, 171, 191, 0.804);
+  border-radius: 10px 20px 10px 20px;
+}
+
+.filter{
+  width:100%;
+  /* padding-left: 30px; */
+  font-size: 2.5vw;
+}
+.filter span{
+  font-size: 2.5vw;
+}
+
+@media (min-width:300px){
+  .filter span{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1020){
+  .filter{
+    font-size: 30px;
+  }
+ 
+}
+
+.filter select{
+  font-size: 3vw;
+  border-radius: 5px;
+  border: none;
+  margin:3px;
+  width:52%;
+
+}
+.filterChange .filter select{
+  background-color: #86c3df;
+  /* background-color: rgba(39, 49, 48, 0.804); */
+
+  /* color:white; */
+}
+
+@media (max-width:400px){
+  .filterResult,.filterChange{
+    height:8vh;
+  }
+  .filter select{
+    width:50%;
+    font-size: 5vw;
+  }
+  .onlyDetails,.detailsChnage{
+    height:7vh;
+    font-size: 22px;    
+    /* font-size: 16px; */
+  }
+}
+
+@media(min-width:680px ){
+  .filter select{
+    font-size: 2.3vw;
+    border-radius: 5px;
+    border: none;
+    margin:3px;
+  }
+} 
+
+@media (min-width:918px){
+  .filter select{
+    font-size: 1.8vw;
+    border-radius: 5px;
+    border: none;
+    margin:3px;
+  }
+  .onlyDetails, .filterResult,.detailsChnage,.filterChange{
+  font-size: 2.5vw;
+  }
+}
+.spanCategory{
+  padding-right:20px;
+
+}
+.spanPackage{
+  padding-right:21px;
+
+}
+
+@media (min-width:1020px){
+  .onlyDetails, .filterResult, .detailsChnage,.filterChange{
+    width:90%;
+  }
+}
+
+.specialSearchRender{
+
+  display: flex;
+  flex-direction: row;
+}
+
+

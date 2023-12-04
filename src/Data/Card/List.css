@@ -1,0 +1,65 @@
+
+
+
+.listContainer{
+    width:85%;
+    display :flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid rgba(255,255,255); */
+    padding:7px 0px 7px 7px;
+    border-radius: 10px 10px 20px 20px;
+    height: auto;
+    /* padding: 10px; */
+    /* flex-wrap: wrap; */
+    /* background-color: #bc6c25; */
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: bold;
+    /* margin:10px auto 10px auto; */
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+@media (min-width: 600px){
+    .listContainer{
+        font-size: 2vw;
+    }
+}
+
+.listName{
+    width:20%;
+    border: 3px solid rgba(202, 166, 56, 0.804);
+    border-radius: 10px 20px 10px 20px;
+    padding:5px;
+}
+
+.listIntQty{
+
+        width:20%;
+        border: 3px solid rgba(80, 177, 207, 0.804);
+        border-radius: 20px 10px 20px 10px;
+        padding:5px; 
+}
+
+.listAviQty{
+    width:20%;
+    border: 3px solid rgba(57, 168, 90, 0.804);
+    border-radius: 10px 20px 10px 20px;
+    padding:5px;
+
+}
+ .listDetQty{
+    width:20%;
+    border: 3px solid rgba(197, 136, 45, 0.804);
+    border-radius: 20px 10px 20px 10px;
+    padding:5px;
+
+}
+
+.listLine{
+    padding-top: 16px
+}

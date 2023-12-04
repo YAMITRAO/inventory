@@ -1,0 +1,55 @@
+
+.Card{
+   
+    opacity:1;
+    height:260px;
+    width:320px;
+    border-radius: 10px 50px 10px 50px;
+    /* background-image: linear-gradient(rgba(113, 215, 196, 0.2), rgba(56, 82, 94, 0.3)), url("./Images/led.jpg"); */
+    background-color: white;
+  background-size: "cover";
+  background-repeat:no-repeat;
+  background-position: center;
+
+  
+  margin:10px;
+  transition: all 1s 0.4s ease-in;
+}
+.Card:hover{
+    /* height:220px; */
+    /* width:220px; */
+    /* background-image: url("./Images/led.jpg"); */
+    opacity: 0.8;
+}
+
+.nameOfComponent{
+    color:#219ebc;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left:10px;
+    padding-top: 2px;
+}
+.initialQun{
+    color:#219ebc;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 500;
+    padding-left:3px;
+}
+
+
+
+.detailsOfComponent{
+    color:#a77906;
+    float:right;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bolder;
+    padding-left:3px;
+    padding-top:208px;
+    padding-right:10px;
+}
+
+
+

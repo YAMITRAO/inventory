@@ -1,0 +1,117 @@
+
+.Card{
+   
+    opacity:1;
+    height:260px;
+    width:320px;
+    border-radius: 10px 50px 10px 50px;
+    /* background-image: linear-gradient(rgba(113, 215, 196, 0.2), rgba(56, 82, 94, 0.3)), url("./Images/led.jpg"); */
+    background-color: white;
+  background-size: "cover";
+  background-repeat:no-repeat;
+  background-position: center;
+
+  
+  margin:10px;
+  /* transition: all 1s 0.4s ease-in; */
+}
+
+
+.nameOfComponent{
+    color:#219ebc;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left:10px;
+    padding-top: 2px;
+}
+.initialQun{
+    color:#219ebc;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 500;
+    padding-left:3px;
+}
+
+
+
+.detailsOfComponent{
+    color:#a77906;
+    float:right;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bolder;
+    padding-left:3px;
+    padding-top:208px;
+    padding-right:10px;
+}
+
+
+/* display on clicking of element */
+
+.onClick{
+    width:100%;
+    height: 100%;
+    border-radius: 10px 50px 10px 50px;
+    /* height:50%; */
+    /* background-image: linear-gradient(rgba(10,10,10,0.4),rgba(10,10,10,0.4)) ; */
+    opacity: 1;
+    /* border: 2px solid green; */
+    float:right;
+    /* transition: all 1s 1.4s ; */
+}
+
+
+.onClick1{
+    width: 94%;
+    float:right;
+    /* margin-left:auto;
+    margin-right: auto; */
+    height:80%;
+    background-color: #219ebc;
+    opacity: 0.85;
+    margin-top:26px;
+    margin-right: 1px;
+    border-radius: 10px 70px 10px 49px;
+    color:white;
+    /* transition: background-color 0.5s  0.1s  ease-in,color 0.5s 0.1s ease-in; */
+
+}
+
+
+.initialQuantityClick{
+    color:#ffffff; 
+    float:right; 
+    padding-right:23px;
+    /* transition: color 0.5s 0.1s ease-in;; */
+}
+.availableQuantityClick{
+    color:#fff666;
+    padding-top:45px;
+    /* transition:  0.5s 0.1s ease-in; */
+}
+.sku{
+    color: #fff555;
+    font-size: 16px;
+    padding-left: 33px;
+    padding-top: 5px;
+    font-weight: bold;
+    /* transition: all 0.8s 0.3s ease-in ; */
+}
+
+.lostClick{
+    color:#ffffff;
+    float:right; 
+    padding:30px 10px 10px 10px;
+}
+
+.detailsOfComponentClick{
+    font-size: 20px;
+    
+    font-weight: bold;
+    padding:15px;
+}
+
+                   
+
+

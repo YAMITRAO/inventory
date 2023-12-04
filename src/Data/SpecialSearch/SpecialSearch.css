@@ -1,0 +1,32 @@
+
+
+.specialSearch{
+    font-family: monospace;
+    font-weight: bold;
+    padding:20px 10px 25px 10px;
+      width:50vw;
+      height:5vw;
+      /* background-color: #8ecae6; */
+      background-color: #359093;
+      /* border:2px solid green; */
+      border-radius: 30px;
+      margin: 10px auto 10px auto;
+      font-size: 3vw;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      
+  }
+
+
+  .specialSearch select{
+    border:none;
+    border-radius: 30px;
+    width:50%;
+    font-size: 23px;
+    margin-top:5px;
+  }
